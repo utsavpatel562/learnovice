@@ -1,0 +1,38 @@
+.container10{
+    width: 95%;
+    background-color: rgb(44, 44, 44);
+    padding: 50px 40px;
+    border-radius: 5px;
+    box-shadow: 0 20px 35px rgba(60,60,60,0.2);
+    margin: 50px auto;
+}
+.wrapper10{
+}
+label{
+    color: #96f2f8;
+    font-size: 17px;
+}
+input{
+    width: 600px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(238, 239, 240);
+}
+input:hover{
+    border: 3px solid #92c4fd;
+}
+input[type="submit"],input[type="reset"]
+{
+    width: 130px;
+    margin-top: 20px;
+}
+@media screen {
+   input{
+       width: 280px;
+   } 
+}
