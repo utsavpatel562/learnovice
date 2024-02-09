@@ -1,0 +1,65 @@
+input[type=file]::-webkit-file-upload-button{
+  display: inline-block;
+  background: linear-gradient(180deg, #ff4a4a, #ff0101);
+  border: 2px solid #999;
+  color:#fff;
+  border-radius: 3px;
+  padding: 5px 12px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.modal{
+	width:100px;
+}
+.btnextra{
+    margin-top: 20px;
+    padding: 5px;
+    width: 120px;
+    background-color: #fff;
+    border: 2px solid #228b22;
+    color: #228b22;
+    box-shadow: 2px 2px 10px rgba(0,1,0,0.1); 
+}
+.text-muted .btnext{
+    margin-top: 20px;
+    padding: 5px;
+    width: 150px;
+    background-color: #fff;
+    border: 2px solid #228b22;
+    color: #228b22;
+    box-shadow: 2px 2px 10px rgba(0,1,0,0.1); 
+}
+.text-muted .btnext:hover{
+	background:#228b22;
+	color:#fff;
+}
+.btn .btn-primary
+{
+	width: 100px;
+	border-radius: 5px;
+}
+.mylink a{
+	text-decoration: none;
+}
+.text-truncate{
+	color: #000;
+}
+.rank{
+	color: green;
+}
+.card:hover{
+    background: #228b22;
+    cursor: pointer;
+}
+@media print{
+    body *:not(#my-section):not(#my-section *){
+        visibility: hidden;
+    }
+    #my-section{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
