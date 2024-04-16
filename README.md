@@ -24,4 +24,4 @@ LearNovice is an E-Learning platform designed to facilitate the learning of prog
 This project is licensed under the MIT License.
 
 <h2><b>Contact</b></h2>
-For any inquiries or support, please contact us at contact@learnovice.com.
+For any inquiries or support, please contact us at utsavpatel562@gmail.com.
