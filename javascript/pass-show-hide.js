@@ -1,12 +1,6 @@
-const pswrdField = document.querySelector(".form input[type='password']"),
-toggleIcon = document.querySelector(".form .field i");
-
-toggleIcon.onclick = () =>{
-  if(pswrdField.type === "password"){
-    pswrdField.type = "text";
-    toggleIcon.classList.add("active");
-  }else{
-    pswrdField.type = "password";
-    toggleIcon.classList.remove("active");
-  }
-}
+toggleIcon.onclick = () => {
+  const isPasswordVisible = pswrdField.type === "password";  // Check if the password is currently hidden
+  pswrdField.type = isPasswordVisible ? "text" : "password";  // Toggle the field type
+  toggleIcon.classList.toggle("active", isPasswordVisible);  // Toggle the 'active' class
+  toggleIcon.setAttribute("aria-pressed", !isPasswordVisible);  // Update ARIA attribute
+};
