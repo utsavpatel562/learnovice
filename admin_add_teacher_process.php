@@ -1,4 +1,5 @@
 <?php
+// logic for inserting new teacher
 include('config.php');
 $name = $_POST['name'];
 $email = $_POST['email'];
