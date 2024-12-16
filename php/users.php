@@ -1,4 +1,5 @@
 <?php
+// logic for getting or identifying user auth. for (Web Application)
     session_start();
     include_once "config.php";
     $outgoing_id = $_SESSION['unique_id'];
