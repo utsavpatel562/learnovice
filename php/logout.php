@@ -1,4 +1,5 @@
 <?php
+// logic for logut auth.
     session_start();
     if(isset($_SESSION['unique_id'])){
         include_once "config.php";
