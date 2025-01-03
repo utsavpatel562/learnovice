@@ -1,4 +1,4 @@
-<h2><b>LearNovice: E-Learning Management</b></h2>
+<h2><b>LearNovice : E-Learning Management</b></h2>
 <p type="justify">LearNovice is an E-Learning platform designed to facilitate the learning of programming. This web application offers pre-designed courses for users to enroll in, as well as the ability to create and publish their own courses. With a focus on usability, security, and versatility, LearNovice is built using PHP, SCSS, JavaScript, Angular, jQuery, SQL, CSS, and HTML programming languages.</p>
 
 <h2><b>Features</b></h2>
