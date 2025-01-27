@@ -1,3 +1,4 @@
+// Code by Utsav Patel
 // Get references to important DOM elements used in the signup form
 const form = document.querySelector(".signup form");  // The signup form
 const continueBtn = form.querySelector(".button input");  // The submit button for form submission
