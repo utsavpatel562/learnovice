@@ -1,3 +1,4 @@
+// Code by Utsav Patel
 // Get references to important DOM elements for search functionality
 const searchBar = document.querySelector(".search input");  // The input field for search queries
 const searchIcon = document.querySelector(".search button");  // The button to toggle the search bar
