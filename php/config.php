@@ -1,3 +1,4 @@
+<!-- Connection File -->
 <?php
   $hostname = "localhost";
   $username = "root";
