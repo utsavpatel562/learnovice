@@ -1,3 +1,4 @@
+// Code by Utsav Patel
 jQuery(document).ready(function( $ ) {
 
   $(window).scroll(function () {
