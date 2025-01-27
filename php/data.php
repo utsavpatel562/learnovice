@@ -1,3 +1,4 @@
+<!-- Data fetching -->
 <?php
 // logic to display messsages
     while($row = mysqli_fetch_assoc($query)){
