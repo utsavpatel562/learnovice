@@ -1,3 +1,4 @@
+// Code by Utsav Patel
 // Get references to important DOM elements used in the login form
 const form = document.querySelector(".login form");  // The login form
 const continueBtn = form.querySelector(".button input");  // The input button for submission
