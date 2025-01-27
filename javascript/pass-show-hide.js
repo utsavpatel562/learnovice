@@ -1,3 +1,4 @@
+// Code by Utsav Patel
 toggleIcon.onclick = () => {
   const isPasswordVisible = pswrdField.type === "password";  // Check if the password is currently hidden
   pswrdField.type = isPasswordVisible ? "text" : "password";  // Toggle the field type
