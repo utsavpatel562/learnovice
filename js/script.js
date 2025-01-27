@@ -1,4 +1,4 @@
-
+// Code by Utsav Patel
  const toggleSwitch = document.querySelector(".toggle-switch");
 
  toggleSwitch.addEventListener("change",() =>{
